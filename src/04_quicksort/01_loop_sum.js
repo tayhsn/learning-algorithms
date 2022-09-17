@@ -1,4 +1,4 @@
-import { createArray } from '../_utils/createArray'
+import { createArray } from '../../utils/createArray.js'
 
 const sum = (array) => {
   let totalSum = 0
