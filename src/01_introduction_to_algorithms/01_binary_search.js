@@ -1,6 +1,4 @@
-import { createArray } from '../_utils/createArray'
-
-const binary_search = (list, item) => {
+const binarySearch = (list, item) => {
   let low = 0
   let high = list.length - 1
 
@@ -16,7 +14,7 @@ const binary_search = (list, item) => {
   return null
 }
 
-const list = createArray(100)
+const list = [1, 3, 5, 7, 9]
 
-console.log(binary_search(list, 3)) // 1
-console.log(binary_search(list, -1)) // null
+console.log(binarySearch(list, 3)) // 1
+console.log(binarySearch(list, -1)) // null

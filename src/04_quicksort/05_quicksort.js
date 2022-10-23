@@ -1,3 +1,8 @@
+/**
+ * Quick array sorting
+ * @param {Array} array Source array
+ * @returns {Array} Sorted array
+ */
 const quickSort = (array) => {
   if (array.length < 2) return array
 

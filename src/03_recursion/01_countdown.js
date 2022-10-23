@@ -1,3 +1,7 @@
+/**
+ * Countdown
+ * @param {number} i Number
+ */
 const countdown = (i) => {
   console.log(i)
   //base-case
